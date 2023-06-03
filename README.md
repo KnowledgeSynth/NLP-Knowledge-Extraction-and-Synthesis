@@ -2,7 +2,7 @@
 
 The purpose of the method is to **extract and synthesise knowledge** about behavior determinants and their statistical associations to behavior choice options from a body of scientific literature automatically and feed the resulting knowledge into a **"Behavior Choice Determinants Ontology"**. This document walks the user through the order and purpose of the scripts. 
 
-*Date: 01/02/2023*
+*Date: 04/06/2023*
 
 ---
 ---
