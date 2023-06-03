@@ -34,13 +34,13 @@ SELECT DISTINCT ?causec ?causecl
 WHERE {  
 """
 queries = {}
-queries['What are studies containing behavioral evidence for biking after 2015?']="""
+queries['What are studies containing behavioral evidence for biking after 2018?']="""
 SELECT DISTINCT ?cite
 WHERE {  
 ?a a bmo:biking; bmo:studiedChoiceOption ?evidence.
 ?evidence bmo:foundCorrelatedBy ?study.
 ?study bmo:hasStudyYear ?year; bmo:hasCitation ?cite.
-FILTER(?year >= 2015)
+FILTER(?year >= 2018)
 }
 """
 queries['What are the studies with most evidences for each behavioral choice option?']="""
